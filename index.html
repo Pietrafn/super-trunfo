@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Super Trunfo Mettaton - Dia 8</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<audio src="https://cdn.freesound.org/previews/652/652306_14336355-lq.mp3" type="audio/mp3" id="mettatonEx"></audio>
+<audio src="https://cdn.freesound.org/previews/652/652304_14336355-lq.mp3" type="audio/mp3" id="mettaton" autoplay:"true"></audio>
+<audio src="https://cdn.freesound.org/previews/342/342218_5865517-lq.mp3" type="audio/mp3" id="victory"></audio>
+<audio src="https://cdn.freesound.org/previews/157/157218_1670580-lq.mp3" type="audio/mp3" id="defeat"></audio>
+<audio src="https://cdn.freesound.org/previews/511/511484_6890478-lq.mp3" type="audio/mp3" id="win"></audio>
+
+<audio src="https://cdn.freesound.org/previews/253/253174_4404552-lq.mp3" type="audio/mp3" id="lose"></audio>
+
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 08
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="">
+    <h1 class="page-title">Super Trunfo Undertale</h1>
+    <h2>MTT SHOW</h2>
+    <p>BATALHE COMIGO, VEJA SE CONSEGUE MAIS FAMA QUE EU</p>
+    <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+    <div id="pontuacao"></div>
+    <form id="form">
+      <h2 id="escolhaSeuAtributo"></h2>
+      <div class="wrapper">
+        <div>
+          <div id="carta-jogador">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+      <button class="button" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+      <div id="resultado"></div>
+    </form>
+    <form class="button" action="https://codepen.io/19P1/full/PoeexQJ">
+      <input class="button" type="submit" value="Como Jogar" />
+    </form>
+  </div>
+  <a href="https://discord.com/users/754035309225705702" target="_blank">
+    <img src="https://media.discordapp.net/attachments/1019802330146811906/1024522547213123664/unknown.png" alt="Pi" class="discord-logo">
+  </a>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
